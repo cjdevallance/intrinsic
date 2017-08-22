@@ -1,0 +1,114 @@
+
+#slides
+		{position: relative;}
+
+#slides .slides-container
+		{display: none;}
+
+#slides .scrollable
+		{height: 100%;
+		top: 0;
+		left: 0;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+		position: relative;
+		*zoom: 1;}
+
+#slides .scrollable:after
+		{content: "";
+		clear: both;
+		display: table;}
+
+.slides-navigation
+		{width: 88%;
+		max-width: 1000px;
+		top: 46%;
+		left: 6%;
+		margin: 0 auto;
+		position: absolute;
+		z-index: 3;}
+
+.slides-navigation a
+		{font-size: 250%;
+		display: block;
+		position: absolute;}
+
+.slides-navigation a.prev
+		{left: 0;}
+
+.slides-navigation a.next
+		{right: 0;}
+
+.slides-pagination
+		{width: 100%;
+		bottom: 0;
+		text-align: center;
+		display: none;
+		position: absolute;
+		z-index: 3;}
+
+.slides-pagination a
+		{width: 10px;
+		height: 10px;
+		text-indent: -100%;
+		vertical-align: middle;
+		*vertical-align: auto;
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+		margin: 2px;
+		overflow: hidden;
+		*display: inline;
+		display: -moz-inline-stack;
+		display: inline-block;
+		border-radius: 15px;
+		border: 2px solid #222;
+		zoom: 1;}
+
+.slides-pagination a.current
+		{background: #222;}
+
+#slides a:hover
+		{background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.4);}
+
+#slides a.prev
+		{background: url('../bxslider/images/controls-white.png') no-repeat scroll 5px -27px;}
+
+#slides a.next
+		{right: 0px;
+		background: url('../bxslider/images/controls-white.png') no-repeat scroll -40px -27px;}
+
+#slides a.next, #slides a.prev
+		{width: 40px;
+		height: 40px;
+		top: -40px;
+		font-weight: bold;
+		font-size: 72px;
+		color: #FFF;
+		text-decoration: none;
+		text-shadow: 0px 0px 0px #000;
+		text-align: center;
+		margin: 0px 25px;
+		padding: 1px;
+		opacity: 0.6;
+		box-shadow: 0px 0px 0px #000;
+		transition: #000 0.15s ease 0s;
+		display: block;
+		border-radius: 0px;
+		border: 0px solid #FFF;}
+
+
+
+@media (max-width: 500px) {
+
+#slides a.next, #slides a.prev
+		{width: 24px;
+		height: 24px;	
+		line-height: .7;}
+
+#slides a.prev
+		{background: url('../bxslider/images/controls-white.png') no-repeat scroll -2px -34px;}
+
+#slides a.next
+		{right: 0px;
+		background: url('../bxslider/images/controls-white.png') no-repeat scroll -47px -34px;}
+
+}
