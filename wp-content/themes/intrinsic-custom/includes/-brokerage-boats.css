@@ -1,0 +1,1057 @@
+﻿
+@import url(http://fonts.googleapis.com/css?family==Fjord+One);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT:700,400);
+
+#content_container
+		{width: 100%;
+		height: 100%;
+		margin: 2% auto 0 0;
+		overflow: auto;
+		position: relative;}
+
+#boat-details-container
+		{width: 100%;
+		height: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+		/*overflow: auto;*/
+		position: relative;}
+
+#container-left
+		{width: 60%;
+		vertical-align: top;
+		display: inline-block;}
+
+#container-right
+		{width: 38%;
+		vertical-align: top;
+		display: inline-block;}
+
+#gallery
+		{width: 100%;
+		height: auto;}
+
+.galleria-container
+		{max-width: 100% !important;}
+
+#content-slider-inside
+		{font-size: 100%;
+		letter-spacing: 100%;
+		line-height: 100%;
+		margin: 0;}
+
+#top-search
+		{margin: 0 auto 60px;}
+
+#sidebar
+		{width: 35%;
+		height: auto !important;
+		top: 0px; 
+		right: 0px;
+		margin: 0px auto;
+		display: inline-block;
+		position: absolute;}
+
+#sidebar h4
+		{font: normal 20px 'Fjord One', Arial, sans-serif;
+		text-align: center;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		padding-top: 7%;}
+
+#boat-details-container h4
+		{color: #404C4C;}
+
+#html-form
+		{width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: 'Fjord One', Arial, sans-serif;}
+
+#search-results
+		{overflow: hidden;}
+
+#search-results ul
+		{margin: 0px auto;}
+
+#search-results a
+		{color: #7169B4;}
+
+.brand
+		{font-family: 'Playfair Display', Arial, sans-serif;
+		font-size: 50% !important;
+		line-height: 16px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		display: block;}
+
+.fn
+		{font-family: 'Playfair Display', Arial, sans-serif;
+		font-size: 60% !important;
+		line-height: 24px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-bottom: 7%;
+		display: block;}
+
+.search-form
+		{display: none;}
+
+.search-result
+		{list-style-type: none;
+		padding: 0px;
+		text-align: center;}
+
+.search-result img
+		{width: 250px;
+		height: 160px;}
+
+.hproduct
+		{width: 100%;
+		max-width: 270px;
+		height: auto;
+		min-height: 390px;
+		background-color: #FFFFFF;
+		margin: 0 1% 2%;
+		padding: 10px;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out;
+		text-align: left;
+		vertical-align: top;
+		display: inline-block;
+		border: 1px solid #7169B4;}	
+
+.hproduct:hover
+		{-moz-box-shadow: 1px 1px 8px #999;
+		-webkit-box-shadow: 1px 1px 8px #999;
+		box-shadow: 1px 1px 8px #999;}
+
+.hproduct p
+		{min-height: 1px;
+		font: 16px 'Fjord One', Arial, sans-serif;
+		color: #404C4C;
+		text-align: left;
+		margin: 0px;}
+
+.hproduct p a:link
+		{min-height: 69px;
+		color: #E3EEFB;
+		font-size: 13px;
+		font-weight: 100;}
+
+.hproduct p a:visited
+		{min-height: 69px;
+		color: #E3EEFB;
+		font-size: 13px;
+		text-decoration: none;}
+
+.hproduct p a:hover
+		{min-height: 69px;
+		color: #E3EEFB;
+		font-size: 13px;
+		text-decoration: none;}
+
+#details
+		{min-height: 130px;
+		text-transform: uppercase;
+		letter-spacing: 1px;}
+
+#search-results h2
+		{width: 100%;
+		height: auto;
+		min-height: 80px;
+		text-align: left;
+		letter-spacing: 1px;
+		margin: 0 auto;}
+
+#search-results h2 a
+		{font-family: 'Fjord One', Arial, sans-serif;
+		line-height: 18px;
+		text-decoration: none;
+		color: #404C4C;
+		margin: 0px auto;
+		padding: 0 0 0 0px;
+		display: block;}
+		
+a.details-back
+		{font: 12px 'Fjord One', Arial, sans-serif;
+		color: #B73838;
+		text-decoration: none;
+		text-align: left;}
+
+.view-button a, .details-buttons a
+		{text-align: center;	
+		text-decoration: none;
+		background-color: #C01823;
+		color: #FFFFFF;
+		margin: 0px auto;
+		padding: 2%;
+		cursor: pointer;
+		-webkit-appearance: none;
+		display: block;
+		border: 0px none;}
+
+.view-button a:hover
+		{color: #E994AC;
+		opacity: 0.7;
+		-webkit-transition: all ease .3s;
+		-o-transition: all ease .3s;
+		-moz-transition: all ease .3s;
+		-ms-transition: all ease .3s;
+		transition: all ease .3s;}
+
+.details-buttons a
+		{width: 60%;
+		height: auto;
+		font: 16px 'Playfair Display', Arial, sans-serif !important;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #FFF !important;
+		background: #A90C40;
+		background: -moz-linear-gradient(top, #A90C40 0%, #870226 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A90C40), color-stop(100%,#870226));
+		background: -webkit-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -o-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -ms-linear-gradient(top, #A90C40 0%,#870226 100%); 
+		background: linear-gradient(to bottom, #A90C40 0%,#870226 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A90C40', endColorstr='#870226',GradientType=0 );
+		margin: 3% auto 3%;
+		padding: 6px;	
+		float: none;
+		border-radius: 4px;
+		border-top: 1px solid #B55173;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;}
+
+.details-buttons a:hover
+		{color: #E994AC;
+		opacity: 0.7;
+		-webkit-transition: all ease .3s;
+		-o-transition: all ease .3s;
+		-moz-transition: all ease .3s;
+		-ms-transition: all ease .3s;
+		transition: all ease .3s;}
+
+#resultinfo
+		{width: 185px;
+		min-height: 90px;
+		font-family: 'Fjord One', Arial, sans-serif;
+		color: #757575;
+		text-align: center;}
+
+.view-button a
+		{font: 16px 'Playfair Display', Arial, sans-serif !important;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFF !important;
+		background: #A90C40;
+		background: -moz-linear-gradient(top, #A90C40 0%, #870226 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A90C40), color-stop(100%,#870226));
+		background: -webkit-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -o-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -ms-linear-gradient(top, #A90C40 0%,#870226 100%); 
+		background: linear-gradient(to bottom, #A90C40 0%,#870226 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A90C40', endColorstr='#870226',GradientType=0 );
+		position: relative;
+		-webkit-appearance: none;
+		border-radius: 4px;
+		border-top: 1px solid #B55173;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;}
+
+#resultinfo a
+		{text-decoration: none;
+		color: #999;}
+
+.details-buttons
+		{width: 50%;
+		overflow: hidden;
+		margin-bottom: 10px;}
+
+.boat-title
+		{font-family: 'Playfair Display', Arial, sans-serif;
+		letter-spacing: 1px;
+		line-height: 100%;
+		text-transform: uppercase;
+		color: #1D2F49;
+		/*margin-bottom: 2%;*/
+		padding-bottom: 2%;
+		display: block;}
+
+.to
+		{text-transform: uppercase;
+		margin-top: 3%;
+		display: inline-block;
+		position: relative;}
+
+.boat-content ul
+		{margin-left: 20px;}
+
+#boat-content-details li
+		{list-style: disc;
+		margin-left: 4%;}
+
+#descriptions ul, #descriptions li
+		{margin-left: 0px;}
+
+.specs
+		{list-style-type: none;
+		margin-bottom: 15px;}
+
+.essentials
+		{font-size: 90%;
+		text-transform: uppercase;
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0px;}
+
+.essentials li
+		{list-style: none !important;
+		margin-left: 0px !important;}
+
+#description, #descriptions
+		{width: 100%;
+		max-width: 1000px;
+		font-weight: 100;
+		padding: 10px 0;
+		overflow: hidden;}
+
+#descriptions-lower
+		{display: none;}
+
+#description h4
+		{color: #404C4C;}
+
+#full-specs
+		{border-bottom: 1px solid rgba(71, 64, 130, 0.2);
+		/*display: none;*/}
+
+#descriptions li
+		{color: #404C4C;
+		font-family: 'Fjord One', Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		margin-bottom: 6px;
+		list-style: none;
+		border-bottom: 1px solid rgba(71, 64, 130, 0.2);}
+
+#sidebar .essentials li
+		{color: #FFFFFF;
+		font-family: 'Fjord One', Arial, sans-serif;
+		margin-bottom: 6px;
+		border-bottom: 0px solid rgba(71, 64, 130, 0.2);}
+
+#description .essentials li
+		{color: #404C4C;
+		font-family: 'Fjord One', Arial, sans-serif;
+		margin-bottom: 6px;
+		border-bottom: 0px solid rgba(71, 64, 130, 0.2);}
+
+ul.specs li
+		{color: #404C4C;
+		font-family: 'Fjord One', Arial, sans-serif;
+		margin-bottom: 6px;}
+
+#descriptions h4
+		{font-family: 'Playfair Display', Arial, sans-serif;
+		font-weight: bold;
+		color: #404C4C;}
+
+#full-specs
+		{overflow: hidden;}
+
+.column1
+		{float: left;
+		width: 50%;}
+
+.column2
+		{float: right;
+		width: 50%;}
+
+.heading
+		{font: 100% 'Fjord One', Arial, sans-serif;
+		color: #404C4C;
+		margin-bottom: 15px;}
+
+.sidebar-search select
+		{width: 260px;
+		padding: 2px;}
+
+.sidebar-search input
+		{width: 90px;
+		padding: 2px;}
+
+#search-btn
+		{width: 100%;
+		font: 130% 'Playfair Display', Arial, sans-serif;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-align: center;
+		color: #FFFFFF;
+		background: -moz-linear-gradient(top, #A90C40 0%, #870226 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A90C40), color-stop(100%,#870226));
+		background: -webkit-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -o-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -ms-linear-gradient(top, #A90C40 0%,#870226 100%); 
+		background: linear-gradient(to bottom, #A90C40 0%,#870226 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A90C40', endColorstr='#870226',GradientType=0 );
+		margin-top: 15px;
+		padding: 2%;
+		cursor: pointer;
+		box-sizing: border-box;
+		display: block;
+		border-radius: 4px;
+		border-top: 1px solid #B55173;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;}
+
+#search-btn:hover
+		{color: #E994AC;
+		opacity: 0.7;
+		-webkit-transition: all ease .3s;
+		-o-transition: all ease .3s;
+		-moz-transition: all ease .3s;
+		-ms-transition: all ease .3s;
+		transition: all ease .3s;}
+
+.xml-search-form-container
+		{width: 100%;
+		font-size: 12px;
+		text-align: center;
+		background-color: #FFFFFF;
+		margin: 0px auto;}
+
+.xml-search-form-title
+		{letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		background: none repeat scroll 0 0 rgba(71, 64, 130, 0.8);
+		padding: 1%;
+		display: block;
+		position: relative;}
+
+.xml-search-form
+		{padding: 1%;}
+
+.option-row
+		{width: 100%;
+		text-align:center;
+		vertical-align: top;
+		display: inline-block;}
+
+.option-row .option
+		{width: 44%;
+		display: inline-block;}
+
+.option-group
+		{width: 33%;
+		text-align: center;
+		margin-top: 12px;
+		margin-bottom: 10px;
+		vertical-align: top;
+		display: inline-block;}
+
+.option-group span
+		{font-size: 13px;
+		margin-top: 18px;
+		margin-right: 5px;
+		display: inline-block;}
+
+.option-group:nth-of-type(3)
+		{border-left: 1px solid #E4E4E5;
+		border-right: 1px solid #E4E4E5;}
+
+.option
+		{height: 50px;
+		text-align: left;
+		text-transform: uppercase;
+		vertical-align: top;
+		margin: 2px;
+		display: inline-block;}
+
+#option
+		{line-height: 1.7em;
+		margin-top: 5px;}
+
+.option-group .option
+		{width: 100%;
+		max-width: 36%;
+		height: 50px;
+		text-align: center;
+		margin: 2px;
+		vertical-align: top;
+		display: inline-block;}
+
+.option select
+		{width: 85%;}
+
+#sort
+		{float: right;}
+
+#page-numbers
+		{font: normal 1em 'Fjord One', Arial, sans-serif;
+		text-transform: uppercase;
+		color: #404C4C;
+		margin-bottom: 10px;
+		padding: 1% 2%;
+		overflow: hidden;
+		border: 0px solid #CCC;}
+
+#page-numbers a
+		{color: #C01823;}
+
+#sales-message
+		{width: 95%;
+		margin: auto;
+		margin-top: 15px;
+		background-color: #F2F2F2;
+		padding: 10px;}
+
+#sales-message h2
+		{font: bold 14px 'Fjord One', Arial, sans-serif;
+		line-height: 1em;
+		text-transform: capitalize;
+		color: #404C4C;
+		margin: 0;
+		margin-bottom: 5px;
+		padding: 0;
+		padding-bottom: 0px;
+		border-bottom: 1px #AFAFAF dashed;}
+
+.essentials
+		{margin: 0px auto;}
+
+.galleria-images
+		{z-index: 0;}
+
+.galleria-stage
+		{background-color: #E4E4E5;}
+
+.galleria-bar
+		{bottom: 7px !important;}
+
+.xml-contact-form-container
+		{background: #FFFFFF;
+		padding: 5%;
+		border: 1px solid #333333}
+
+.xml-contact-form-container a
+		{color: #7169B4;}
+
+.xml-contact-form-desktop, .xml-contact-form-mobile
+		{width: 100%;
+		height: auto;
+		font-size: 80%;
+		text-transform: uppercase;
+		text-align: left;
+		margin-top: 6%;
+		box-sizing: border-box;}
+
+#boat-contact-button
+		{display: none;}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+#container-left, #container-right
+		{width: 100%;
+		display: block;
+		margin-bottom: 12px;}
+
+#container-right
+		{margin-top: 15px;}	
+
+.option-group:nth-of-type(2)
+		{width: 100% !important;}
+
+.option-group:nth-of-type(3)
+		{width: 100% !important;
+		border-left: 0px solid #E4E4E5;
+		border-right: 0px solid #E4E4E5;}
+
+.option-group:nth-of-type(4)
+		{width: 100% !important;}
+
+#page-numbers
+		{font-size: 85%;}
+
+#boat-content-details
+		{width: 100%;
+		float: left;}
+
+#image-gallery
+		{width: 100%;
+		display: inline-block;}
+
+#sidebar
+		{width: 98%;
+		max-width: 100%;
+		height: 450px;
+		margin: 1%;
+		padding-left: 0;
+		clear: both;
+		float: none;
+		position: relative;}
+
+#sidebar h5
+		{width: 90%;
+		padding-top: 0;
+		display: none;}
+
+.xml-contact-form-container
+		{background: none;
+		padding: 0;
+		border: none;}
+
+.xml-contact-form-container h1
+		{margin-left: 0px;}
+
+.xml-contact-form-desktop
+		{display: none;}
+
+.xml-contact-form-mobile
+		{margin-top: 0;
+		padding: 4%;
+		background-color: #FFFFFF;
+		border: 0px solid #333333;}
+
+.boat-title, #sidebar .essentials li, .broker-right
+		{color: #404C4C;}
+
+.fn
+		{font-family: 'Playfair Display', Arial, sans-serif;
+		font-size: 80% !important;
+		line-height: 24px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;}
+
+#search-btn
+		{width: 100%;
+		padding: 4%;}
+
+.details-buttons
+		{width: 100%;}
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+
+
+/* inventory listings */
+
+#container
+		{max-width: 300px !important;
+		left: -5px !important;
+		margin: 0 auto 70px !important;
+		padding: 0px !important;}
+
+#top-search
+		{margin: 0 auto 30px !important;}
+
+h1.boat-title
+		{margin-left: 0;}
+
+.boat-title
+		{font-size: 21px !important;}
+
+#gallery
+		{height: 250px !important;
+		min-height: 300px !important;}
+
+.view-button a, .details-buttons a
+		{height: 33px;}
+
+#essentials
+		{padding: 15px !important;
+		-webkit-box-sizing: border-box !important;
+		-moz-box-sizing: border-box !important;
+		box-sizing: border-box !important;}
+
+.essentials
+		{width: 100% !important;}
+
+.contact-form
+		{-webkit-box-sizing: border-box !important;
+		-moz-box-sizing: border-box !important;
+		box-sizing: border-box !important;}
+
+.broker-email a, .broker-cell, .broker-name a, .option
+		{font-size: 90% !important;}
+
+.submit-button
+		{max-width: 85px !important;
+		padding: 5px 22px !important;}
+
+.contact-us-copy
+		{font-size: 70%;}
+
+.contact-copyright
+		{width: 100% !important;}
+
+.fb_iframe_widget
+		{width: 100% !important;
+		overflow: hidden !important;
+		font-size: 85% !important;}
+
+#boat-content ul, #descriptions ul
+		{margin-left: 0px !important;}
+
+#boat-content
+		{margin-left: 0px !important;}
+
+#page-numbers
+		{font-size: 85% !important;}
+
+#details
+		{font-size: 40% !important;
+		height: 32% !important;}
+
+.pendingstatus
+		{height: 3px !important;
+		position: relative;
+		top: -15px;}
+
+.hproduct
+		{max-width: 260px;
+		min-height: 390px;}
+	
+.hproduct .view-button a
+		{width: 76% !important;
+		font-size: 80% !important;
+		text-align: center !important;
+		margin: 0px auto !important;
+		padding: 0px !important;}
+
+.hproduct .view-button a, .details-buttons a
+		{height: 35px !important;
+		line-height: 35px !important;}
+
+.search-button-container
+		{margin: 10px auto !important;}
+
+#search-results h2
+		{min-height: 80px;}
+
+#sidebar
+		{width: 100% !important;
+		max-width: 300px !important;
+		min-width: 300px !important;
+		margin: 10px auto 0 !important;
+		padding: 0 !important;
+		float: none !important;}
+
+#essentials
+		{width: 100% !important;
+		margin: 0px auto;}
+
+.boat-essentials-title
+		{font-size: 80%;}
+
+.essentials
+		{width: 100% !important;}
+
+#boat-content, #description, #descriptions, #full-specs
+		{max-width: 290px !important;}
+
+.heading
+		{font-size: 90% !important;}
+
+.column1
+		{float: left;
+		width: 100%;}
+
+.column2
+		{float: right;
+		width: 100%;}
+
+#descriptions h4
+		{margin: 0px;}
+
+#html-form
+		{width: 86%;
+		text-align: left;
+		margin: 0px auto;
+		margin-bottom: 5%;
+		padding: 20px;}
+		
+#content_container
+		{width: 98%;
+		padding: 3%;}
+
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+#sort
+		{padding-top: 3%;
+		float: left;}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+	
+.accordian-guts-xml-listings
+		{margin: 2% 0;
+		padding: 1% 0 0;
+		background-color: #FFFFFF;
+		border: 0px solid #999999;}
+
+.accordian-guts-xml-listings h3
+		{text-align: center;
+		color: #1D2F49;
+		padding-right: 2%;
+		vertical-align: middle;
+		display: inline-block;}
+
+.accordion-container-xml-listings
+		{width: 100%;
+		margin: 20px 0;
+		clear: both;
+		border: 1px solid #999999;}
+
+.accordion-toggle-xml-listings
+		{letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		background: none repeat scroll 0 0 #FFFFFF;
+		color: #000000;
+		padding: 15px;
+		display: block;
+		position: relative;}
+
+.accordion-toggle-xml-listings.open
+		{background: none repeat scroll 0 0 #FFFFFF;
+		color: #FFFFFF;}
+
+.toggle-icon-xml-listings
+		{width: 22px;
+		font-family: "Fjord One", sans-serif;
+		font-size: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		background: #A90C40;
+		background: -moz-linear-gradient(top, #A90C40 0%, #870226 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A90C40), color-stop(100%,#870226));
+		background: -webkit-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -o-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -ms-linear-gradient(top, #A90C40 0%,#870226 100%); 
+		background: linear-gradient(to bottom, #A90C40 0%,#870226 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A90C40', endColorstr='#870226',GradientType=0 );
+		color: #FFFFFF;
+		margin: 0 auto;
+		padding: 1%;
+		vertical-align: middle;
+		display: inline-block;
+		border-color: #B55173 -moz-use-text-color -moz-use-text-color;
+		border-radius: 4px;
+		border-style: solid none none;
+		border-width: 1px medium medium;}
+
+.toggle-icon-xml-listings:hover, .toggle-icon-xml:hover
+		{opacity: 0.7;
+		transition: all 0.3s ease 0s;}
+
+
+.accordian-guts-xml
+		{display: none;}
+
+#slides
+		{width: 30%;
+		margin-bottom: 10px;
+		overflow: hidden;}
+
+.hproduct
+		{min-height: 420px;}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.accordian-guts-xml-listings
+		{margin: 4% 0;
+		padding: 2% 0 0;
+		background-color: #FFFFFF;
+		border: 0px solid #999999;}
+
+.accordian-guts-xml-listings h3
+		{width: 80%;
+		font-size: 100%;
+		letter-spacing: 2px;
+		text-align: center;
+		color: #9FC8FA;
+		padding-right: 2%;
+		vertical-align: middle;
+		display: inline-block;}
+
+.accordion-container-xml-listings
+		{width: 100%;
+		margin: 20px 0;
+		clear: both;
+		border: 1px solid #999999;}
+
+.accordion-toggle-xml-listings
+		{letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-align: center;
+		background: none repeat scroll 0 0 #000000;
+		color: #FFF;
+		padding: 15px;
+		display: block;
+		position: relative;}
+
+.accordion-toggle-xml-listings.open
+		{background: none repeat scroll 0 0 #000000;
+		color: #FFFFFF;}
+
+.toggle-icon-xml-listings
+		{width: 22px;
+		font-family: "Fjord One", sans-serif;
+		font-size: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		background: #A90C40;
+		background: -moz-linear-gradient(top, #A90C40 0%, #870226 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A90C40), color-stop(100%,#870226));
+		background: -webkit-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -o-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -ms-linear-gradient(top, #A90C40 0%,#870226 100%); 
+		background: linear-gradient(to bottom, #A90C40 0%,#870226 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A90C40', endColorstr='#870226',GradientType=0 );
+		color: #FFFFFF;
+		margin: 0 auto;
+		padding: 2%;
+		vertical-align: middle;
+		display: inline-block;
+		border-color: #B55173 -moz-use-text-color -moz-use-text-color;
+		border-radius: 4px;
+		border-style: solid none none;
+		border-width: 1px medium medium;}
+
+.toggle-icon-xml-listings:hover, .toggle-icon-xml:hover
+		{opacity: 0.7;
+		transition: all 0.3s ease 0s;}
+
+.accordian-guts-xml
+		{margin: 4% 0;
+		padding: 2% 0 0;
+		background-color: #FFFFFF;
+		border: 0px solid #999999;}
+
+.accordian-guts-xml h4
+		{width: 80%;
+		text-align: center;
+		color: #9FC8FA !important;
+		padding-right: 2%;
+		vertical-align: middle;
+		display: inline-block;}
+
+.accordion-container-xml
+		{width: 100%;
+		text-align: center;
+		margin: 20px 0;
+		clear: both;
+		border: 1px solid #999999;}
+
+.accordion-toggle-xml
+		{letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		background: none repeat scroll 0 0 #000000;
+		color: #FFF;
+		padding: 15px;
+		display: block;
+		position: relative;}
+
+.accordion-toggle-xml.open
+		{background: none repeat scroll 0 0 #000000;
+		color: #FFFFFF;}
+
+.toggle-icon-xml
+		{width: 22px;
+		font-family: "Fjord One",sans-serif;
+		font-size: 100%;
+		text-align: center;
+		text-transform: uppercase;
+		background: #A90C40;
+		background: -moz-linear-gradient(top, #A90C40 0%, #870226 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A90C40), color-stop(100%,#870226));
+		background: -webkit-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -o-linear-gradient(top, #A90C40 0%,#870226 100%);
+		background: -ms-linear-gradient(top, #A90C40 0%,#870226 100%); 
+		background: linear-gradient(to bottom, #A90C40 0%,#870226 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A90C40', endColorstr='#870226',GradientType=0 );
+		color: #FFFFFF;
+		margin: 0 auto;
+		padding: 2%;
+		vertical-align: middle;
+		display: inline-block;
+		border-color: #B55173 -moz-use-text-color -moz-use-text-color;
+		border-radius: 4px;
+		border-style: solid none none;
+		border-width: 1px medium medium;}
+
+#below-slide ul
+		{margin: 0px auto;}
+
+#slides
+		{width: 100%;
+		margin: 0 auto;
+		overflow: hidden;}
+
+}
+
+
+
+.bd-sshow-btn
+		{font: 120% 'Playfair Display', Arial, sans-serif;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		text-align: center;
+		color: #FFFFFF;
+		background: -moz-linear-gradient(top, #434343 0%, #3B3B3B 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#434343), color-stop(100%,#3B3B3B));
+		background: -webkit-linear-gradient(top, #434343 0%,#3B3B3B 100%);
+		background: -o-linear-gradient(top, #434343 0%,#3B3B3B 100%);
+		background: -ms-linear-gradient(top, #434343 0%,#3B3B3B 100%); 
+		background: linear-gradient(to bottom, #434343 0%,#3B3B3B 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#3B3B3B',GradientType=0 );
+		margin-top: 15px;
+		padding: 2%;
+		cursor: pointer;
+		box-sizing: border-box;
+		display: block;
+		border-radius: 4px;
+		border-top: 1px solid #767676;
+		border-left: none;
+		border-right: none;
+		border-bottom: none;}
+
+.bd-sshow-btn:hover
+		{color: #FFFFFF;
+		opacity: 0.7;
+		-webkit-transition: all ease .3s;
+		-o-transition: all ease .3s;
+		-moz-transition: all ease .3s;
+		-ms-transition: all ease .3s;
+		transition: all ease .3s;}
