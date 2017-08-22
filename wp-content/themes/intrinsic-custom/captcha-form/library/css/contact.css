@@ -1,0 +1,100 @@
+/* Cheryl's Newer Styles */
+
+#error
+		{color: #FFF;
+		background: #E74C3C;
+		margin-bottom: 25px;
+		padding: 25px;
+		display: none;}
+
+#success
+		{color: #FFF; 
+		background: #2ECC71;
+		margin-bottom: 25px;
+		padding: 25px;
+		display: none;}
+
+/*#contact-main-form
+		{width: 300px;
+		float: left;}
+
+#contact-main-form span
+		{width: 100%;
+		font-size: 0.85em;
+		color: #4F4F4F;
+		float: left;}
+
+#contact-main-form input
+		{width: 100%;
+		height: auto;
+		font-size: 0.8em;
+		line-height: 28px;
+		background: none;
+		margin-bottom: 10px;
+		padding: 0 5px;
+		border-radius: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+		border: 1px solid #B9B9B9;}
+
+#contact-main-form input[type=text]:focus,
+#contact-main-form input[type=tel]:focus,
+#contact-main-form textarea:focus
+		{height: auto;
+		box-sizing: border-box;
+		box-shadow: 0 0 3px #9FC8FA;
+		border: 1px solid #9FC8FA;}
+
+#contact-main-form input:hover,
+#contact-main-form textarea:hover
+		{-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease;
+		-o-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		border: 1px solid #9FC8FA;}
+
+#contact-main-form textarea,
+.field
+		{width: 100%;
+		max-width: 400px;
+		height: 40px;
+		font-family: "Varela Round", sans-serif;
+		font-size: 1em;
+		line-height: 40px;
+		color: #4A4949;
+		margin-bottom: 14px;
+		padding: 0 12px;
+		vertical-align: middle;
+		box-shadow: none;
+		background-color: #EAEDF2;
+		-webkit-transition: background-color 0.24s ease-in-out;
+		transition: background-color 0.24s ease-in-out; 
+		display: block;
+		border-radius: 3px;
+		border: 0;}*/
+
+#contact-main-form .verification
+		{width: 100%;
+		height: auto;
+		margin-bottom: 2%;
+		float: left;
+		display: inline-block;}
+
+#contact-main-form #vimage
+		{width: 89px;
+		height: 42px;
+		float: left;}
+
+#contact-main-form .refresh
+		{width: 32px;
+		height: 32px;
+		margin: 8px 0px;
+		display: inline-block;
+		border: 0;}
+
+#contact-main-form #verify
+		{width: 98px;
+		height: 25px;
+		margin: 5px 0 0;
+		padding: 5px;
+		float: right;}
