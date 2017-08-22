@@ -1,0 +1,7 @@
+Add dealer pp details and style sheets in the following format, each item must be separated with a 
+vertical bar and end with two vertical bars || ALL FIELDS ARE REQUIRED ||
+
+pp Number | Style Sheet | iFrame ID ||
+
+
+pp283659 | intrinsic_search.css | iframeintrinsicyacht ||

@@ -1,0 +1,206 @@
+﻿
+@import url(http://fonts.googleapis.com/css?family==Fjord+One);
+
+#content
+		{font-size: 100%;
+		font-family: 'Fjord One', Arial, sans-serif;}
+
+#content a
+		{color: #A90C40;
+		text-decoration: none;}
+
+
+#content h1
+		{font-family: 'Fjord One', Arial, sans-serif;
+		display: block;
+		font-size: 170%;
+		padding-bottom: 12px;
+		text-transform: uppercase;
+		margin-top: 35px;}
+
+#content h2
+		{font-size: 130%;
+		margin-top: 18px;}
+
+#content h3
+		{font-family: 'Fjord One', Arial, sans-serif;
+		display: block;
+		font-size: 120%;
+		padding-bottom: 12px;
+		font-weight: normal;}
+
+#actionLinks
+		{display: block;
+		height: 20px;
+		background: url('images/buttonBG.jpg') repeat-x;
+		margin-bottom: 10px;}
+
+#preamble
+		{margin: 2px 0px 0px 0px;}
+
+br
+		{clear: both;}
+
+#pa_Search
+		{padding: 10px;
+		height: 140px;}
+
+#pa_Search_world
+		{width: 230px;
+		float: left;
+		padding-top: 20px;
+		text-align: center;}
+
+#pa_Approved
+		{background-color: #F1EFFE;
+		padding: 10px;
+		height: 110px;
+		margin-bottom: 8px;}
+
+#pa_Approved_logo
+		{width: 230px;
+		text-align: center;
+		float: left;
+		padding-top: 20px;
+		padding-bottom: 20px;}
+
+#searchCriteria
+		{margin: 0px 100px;}
+
+#picDescription
+		{font-size: 130%;
+		font-weight: bold;
+		margin-top: 10px;
+		background: url('images/horizontal.gif') repeat-x 50% bottom;
+		padding-bottom: 12px;
+		text-transform: uppercase;}
+
+.formButton
+		{border: none;
+		background-color: #FBFBFB;
+		font-family: 'Fjord One', Arial, sans-serif;
+		font-size: 100%;
+		font-weight: bold;
+		color: #000000;
+		letter-spacing: 1px;}
+
+.formItem
+		{font-family: 'Fjord One', Arial, sans-serif;
+		font-size: 90%;}
+
+.tds
+		{border-bottom: 1px solid #EEE;
+		padding: 6px 0px 6px 8px;}
+
+.tdh
+		{background-color: #005F96;
+		text-align: left;
+		color: #FFFFFF;
+		line-height: 22px;}
+
+.tdh a
+		{color: #FFFFFF;
+		font-size: 100%;
+		display: block;
+		padding-left: 10px;}
+
+.tdh a:hover
+		{text-decoration: underline;
+		background-color: #008CCD;}
+
+.searchTable
+		{background: url('images/tableBG.jpg') repeat-x;}
+
+.trButtons
+		{background: url('images/buttonBG.jpg') repeat-x center;
+		padding: 0px 0px;}
+
+.tdButtons
+		{border: 1px solid #C7B592;
+		text-align: center;}
+
+#content a:hover
+		{text-decoration: underline;}
+
+#content a:active
+		{text-decoration: underline;}
+
+.approved
+		{font-family: 'Fjord One', Arial, sans-serif;
+		font-size: 80%;}
+
+.hidden
+		{display: none;}
+
+.galleryNav
+		{color: #FFFFFF;
+		background: url('images/buttonBG.jpg') repeat-x;}
+
+.blue
+		{background-color: #2C2A6C;
+		color: #FFFFFF;
+		height: 24px;
+		line-height: 24px;}
+
+.blue td
+		{border-bottom: 1px solid #0D314D;}
+
+#content .blue a
+		{color: #FFFFFF;
+		font-size: 100%;}
+
+#content span.feature a
+		{font-size: 100%;}
+
+#content a.backLink
+		{display: none;}
+
+#hideOnPrint
+		{display: none;}
+
+#content tr td img
+		{margin: 0;
+		padding: 0;
+		background-color: #FFFFFF;
+		border: 0px solid #2F72A5;}
+
+#content ul
+		{text-align: left;
+		padding: 0px;
+		margin: 6px 0px 16px 20px;}
+
+#content ul li
+		{height: auto;
+		text-align: left;
+		line-height: 20px;}
+
+font
+		{height: auto;
+		line-height: normal;}
+
+#boatTitle h3
+		{font-size: 100%;
+		text-transform: uppercase;	
+		background-color: #E7E7E7;	
+		text-shadow: 0px 0px 0px #EAF0F4;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		padding: 1%;
+		border-radius: 0px;
+		border: 1px solid #C0C0C0;}
+
+.feature
+		{float: right;
+		padding-bottom: 4px;}
+
+#content tr .feature a img
+		{border: none;}
+
+#table1
+		{display: none;}
+
+#selectedPhotoId
+		{color: #333333 !important;}
+
+.subnav a
+		{color: #333333 !important;}
