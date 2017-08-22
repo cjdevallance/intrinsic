@@ -1,0 +1,52 @@
+body{
+	font-family:'DroidSansRegular',Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#111;
+	line-height:1.2em; 
+}
+form{
+	max-width:300px; 
+}
+legend{
+	font-family:'YanoneKaffeesatzRegular',Tahoma, Geneva, sans-serif;
+	font-size:150%;
+	padding: 10px;
+}
+form fieldset{
+	background: #f7f7f7;
+	background: -moz-linear-gradient(45deg,  #f7f7f7 100%, #ffffff 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(100%,#f7f7f7), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(45deg,  #f7f7f7 100%,#ffffff 100%);
+	background: -o-linear-gradient(45deg,  #f7f7f7 100%,#ffffff 100%);
+	background: -ms-linear-gradient(45deg,  #f7f7f7 100%,#ffffff 100%);
+	background: linear-gradient(45deg,  #f7f7f7 100%,#ffffff 100%);
+	border: 1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+form input[type='text']{
+	height: 2em;
+	border: 2px solid #ccc;
+	width: 240px;
+	padding:3px;
+}
+
+form textarea {
+	height: 2em;
+	border: 2px solid #ccc;
+	width: 240px;
+	padding:3px;
+}
+.ghostCaptcha{
+	background-color: #eff5ff;
+	border: 1px dashed #0063ff;
+	padding: 10px;
+	margin: 10px 0px;
+}
+.ok{
+	color:#003300;
+}
+.error{
+	color:#ee0000;
+}
